@@ -17,3 +17,8 @@ behave features/ --tags=regression -f json (Genera rerporte en formato json)
 
 To debug the code, we use the command: behave features/bcncgroup/verify_paragraphs_who_we_are.feature --no-logcapture --no-capture ,
 remember that you need to have a breakpoint in your code like this:  import pdb; pdb.set_trace()
+
+----------------------------------------------------------------------------------------------------------------------------------
+Next features for this project:
+
+'Behave' allows sending parameters through CMD in the following way: behave features/ --tags=regression -D env=PRO. This way, we could manage sending parameters to the framework. This project does not currently have this functionality implemented, but it would be useful to add it in the future.
